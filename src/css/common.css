@@ -16,3 +16,30 @@ img {
   display: block;
   max-width: 100%;
 }
+span {
+  display: inline-block;
+}
+.timer {
+  display: flex;
+  justify-content: space-around;
+  max-width: 300px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  background: linear-gradient(135deg, rgba(89, 88, 100, 1) 10%, rgb(194, 195, 198) 100%);
+  
+  border-radius: 4px;
+  box-shadow: 0px 17px 20px -13px rgba(0, 0, 0, 0.74);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.value {
+  font-weight: 700;
+  font-size: 42px;
+}
+.label {
+  font-weight: 500;
+}
